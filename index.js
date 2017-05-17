@@ -17,8 +17,6 @@
 
                         a.setAttribute('data-lightbox','test');
                         li.setAttribute('class','li');
-                        
-                        
 
                         a.appendChild(img);
                         li.appendChild(a);
