@@ -1,71 +1,56 @@
 #parent{
 	display: flex ;
-	flex-direction: column;
+	flex-direction: column
 }
 
 h1{
-	
 	text-align : center;
-	color:rgb(255, 63, 226) ;
+	color:rgb(255, 63, 226)
 }
 
-
-
 #ul{
-
-	border : 2px solid rgb(224, 60, 90));
-	border-radius: 5px ;
-	width :700px ;
+	border : 2px solid rgb(224, 60, 90);
+	border-radius: 7px ;
+	width: 700px ;
 	height: 520px ;
 	padding-top: 13px ;
 	padding-bottom: 5px ;
 	padding-left: 7px ;
-	
 	margin: auto auto ;
 	display: flex ;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: rgb(224, 60, 90);
+	background-color: rgb(224, 60, 90)
 }
 
 #ul>.li{
-	
-	flex-basis: 30% ;
-
+	flex-basis: 30%;
+	height: 170px
 }
 
-
-.li ,a , img{
-
-	margin: 2px ;
-
+.li, a, img{
+	margin: 2px
 }
 
-				
-
-img {
+img{
 	width: 93%;
-	height: 93% ;
+	height: 93%;
 	-webkit-transition: .8s;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-	
 	border: 8px solid #fff0d8;
 	border-bottom-width: 30px;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box
 }
 
-
-
-.li:hover {
+.li:hover{
 	-webkit-filter: sepia(0);
-	z-index: 1;
+	z-index: 1
 }
 
-
-.li img:hover {
+.li img:hover{
 	box-shadow: 0 0 5px rgba(0, 0, 0, .5), 0 0 15px rgba(0, 0, 0, .7);
-	-webkit-transform: scale(1.7);
+	-webkit-transform: scale(1.7)
 }
